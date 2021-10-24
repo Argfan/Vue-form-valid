@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <ProductList/>
+    <div class="container">
+      <UserForm/>
+    </div>    
   </div>
 </template>
 
 <script>
 
-import ProductList from './components/ProductList.vue'
+import UserForm from './components/UserForm.vue'
 
 export default {
   name: 'App',
   components: {
-    ProductList
+    UserForm
   }
 }
 </script>
