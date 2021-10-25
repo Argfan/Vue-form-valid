@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <div class="container">
-      <UserForm/>
+      <div class="row">
+        <div class="col-md-6">
+          <UserForm/>
+        </div>
+      </div>      
     </div>    
   </div>
 </template>
